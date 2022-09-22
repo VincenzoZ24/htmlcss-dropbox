@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    
+}
+.container-nav{
+    max-width: 1500px;
+    padding: 1rem 2rem;
+}
+.nav-left{
+    display: flex;    
+}
+.nav-left img{
+    width: 100px;
+    padding:1rem 
+}
+.info-nav{
+    gap: 1rem;
+    list-style: none;
+    color: grey;
+}
+
+.nav-left ul{
+    display: flex;
+    padding: 1rem 2rem;
+}
