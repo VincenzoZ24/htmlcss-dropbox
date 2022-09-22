@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     position: fixed;
     background-color: white;
     top: 0;
@@ -12,111 +13,157 @@ header{
     z-index: 100;
     height: 80px;
 }
-.container-nav{
+
+.container-nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-    
+
 }
-.nav-left{
-    display: flex;    
-}
-.nav-right{
+
+.nav-left {
     display: flex;
 }
-.nav-left img{
-    width: 100px;
-    padding:1rem 
+
+.nav-right {
+    display: flex;
 }
-.info-nav{
+
+.nav-left img {
+    width: 100px;
+    padding: 1rem
+}
+
+.info-nav {
     gap: 1rem;
     list-style: none;
     color: grey;
 }
 
-.nav-left ul{
+.nav-left ul {
     display: flex;
     padding: 1rem 2rem;
 }
-.nav-right ul{
+
+.nav-right ul {
     display: flex;
     padding: 1rem 2rem;
 }
-.inizia{
+
+.inizia {
     text-decoration: none;
 }
-.button-nav{
+
+.button-nav {
     margin: 0.3em;
     padding: 0 3px;
     outline: none;
     border: none;
-    
+
 }
-.accedi{
+
+.accedi {
     color: grey;
     background-color: white;
 }
-.inizia{
+
+.inizia {
     padding: 0 1rem;
     background-color: rgb(11, 132, 212);
     color: white;
 }
-.section-main{
+
+.section-main {
     background-color: lightblue;
     margin-top: 80px;
-    
-    
+
+
 }
-.container-section-main{
+
+.container-section-main {
     max-width: 1000px;
     margin: auto;
     padding-top: 4rem;
 }
-.container-section-main h1{
+
+.container-section-main h1 {
     font-size: 70px;
 }
-.info-section-main{
+
+.info-section-main {
     margin-top: 3rem;
     display: flex;
     position: relative;
     bottom: -50px;
-    
+
 }
-.button-section-main{
+
+.button-section-main {
     margin-top: 1rem;
     border: none;
     color: white;
-    background-color:rgb(11, 132, 212);
+    background-color: rgb(11, 132, 212);
     padding: 0.3rem 0.5rem;
 }
-.annullamento{
+
+.annullamento {
     display: block;
     margin-top: 1rem;
     text-decoration: none;
     color: black;
 }
 
-.info-section-main img{
+.info-section-main img {
     width: 600px;
-    
+
 }
+
 /* main container  */
-.container-main{
+.container-main {
     max-width: 900px;
     padding-top: 5rem;
     margin: auto;
 }
-.fatturazione{
+
+.fatturazione {
     margin: 2rem 0;
 }
-.fattura-mensile{
+
+.fattura-mensile {
     margin-right: 2rem;
-    
+
 }
-.pacchetto-singolo{
+
+.pacchetto-singolo {
     width: 25%;
 }
-.riferimento{
+
+.riferimento {
     border: 1px solid grey;
     text-align: center;
+}
+
+.prezzo {
+    font-size: 15px;
+}
+
+.mese {
+    color: grey;
+}
+
+.caratteristiche-piano {
+    list-style: none;
+
+}
+
+.container-piano {
+    padding: 1rem;
+}
+
+.margin-bottom-list {
+    margin-bottom: 1rem;
+}
+
+.tipo-pacchetto {
+    border: 1px solid grey;
 }
