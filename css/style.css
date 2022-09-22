@@ -5,6 +5,7 @@
 }
 header{
     position: fixed;
+    background-color: white;
     top: 0;
     left: 0;
     right: 0;
@@ -97,5 +98,18 @@ header{
 
 .info-section-main img{
     width: 600px;
+    
+}
+/* main container  */
+.container-main{
+    max-width: 900px;
+    padding-top: 5rem;
+    margin: auto;
+}
+.fatturazione{
+    margin: 2rem 0;
+}
+.fattura-mensile{
+    margin-right: 2rem;
     
 }
