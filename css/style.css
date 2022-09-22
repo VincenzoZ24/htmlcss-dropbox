@@ -113,3 +113,10 @@ header{
     margin-right: 2rem;
     
 }
+.pacchetto-singolo{
+    width: 25%;
+}
+.riferimento{
+    border: 1px solid grey;
+    text-align: center;
+}
