@@ -231,8 +231,35 @@ header {
 }
 .container-enterprise{
     border: 1px solid lightgray;
+    margin-bottom: 6rem;
 }
 span{
     font-size: 20px;
 
+}
+.container-partner img{
+    width: 500px;
+    margin-right: 2rem;
+    
+}
+.container-partner{
+    display: flex;
+}
+.description-partner{
+    position: relative;
+    top: 30px;
+}
+.description-partner h2{
+    margin-bottom: 1rem;
+
+}
+.description-partner p{
+    margin-bottom: 1rem;
+
+}
+.trova-un-partner{
+    color: gray;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: white;
 }
