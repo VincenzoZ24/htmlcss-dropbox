@@ -287,11 +287,9 @@ a{
 }
 .aziende-partner{
     width: 100vw;
-    
     background-color: aqua;
     margin-top: 5rem;
-    display: flex;
-    
+    display: flex;    
 }
 .quadrato{
    width: calc( 100vw / 3); 
@@ -346,4 +344,30 @@ a{
 }
 .azienda-nove{
     background-color: cadetblue;
+}
+.dropbox-nella-tua-azienda{
+    width: 100vw;
+    background-color: rgb(171, 235, 235);
+
+}
+.prova-gratuita{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+    margin: auto;
+}
+.prova-gratuita button{
+    flex: 2 0 auto;
+    padding: 0.5rem;
+    align-self: flex-start;
+    margin-left: 5rem;
+    border: none;
+}
+.prova-gratuita h2{
+    flex: 1 1 auto;
+    font-size: 30px;
+    
+
 }
