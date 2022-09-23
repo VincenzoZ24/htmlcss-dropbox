@@ -186,10 +186,53 @@ header {
 }
 .punti-salienti-piano{
     font-size: 12px;
-    list-style: none;
+    list-style: none;   
 }
+.spunta{
+    float: left;
+    margin-right: 0.3rem;
+    font-size: 12px;
+    color: rgb(11, 132, 212);
+    
+}
+
 .pacchetti{
     display: flex;
     gap: 2rem;
+    margin-bottom: 3rem;   
+}
+.ufficio-vendite{
+    display: flex;
+    padding: 2rem;
+}
+.ufficio-vendite button{
+    display: inline;
+}
+.button-contatto{  
+    flex: 2 0 auto;  
+    color: white;
+    margin-left: 3rem;
+}
+.enterprise{
+    flex: 0 1 auto;
     
+}
+.button-contatto button{
+    background-color: rgb(11, 132, 212);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+}
+.enterprise h3{
+    margin-bottom: 1rem;
+}
+.enterprise h5{
+    margin-bottom: 3rem;
+}
+.container-enterprise{
+    border: 1px solid lightgray;
+}
+span{
+    font-size: 20px;
+
 }
