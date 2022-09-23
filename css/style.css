@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-
+    white-space:nowrap;
 }
 
 .nav-left {
@@ -50,9 +50,6 @@ header {
     padding: 1rem 2rem;
 }
 
-.inizia {
-    text-decoration: none;
-}
 
 .button-nav {
     margin: 0.3em;
@@ -71,12 +68,12 @@ header {
     padding: 0 1rem;
     background-color: rgb(11, 132, 212);
     color: white;
+    text-decoration: none;
 }
 
 .section-main {
     background-color: lightblue;
     margin-top: 80px;
-
 
 }
 
@@ -134,7 +131,7 @@ header {
 
 }
 
-.pacchetto-singolo {
+.pacchetto {
     width: 25%;
 }
 
@@ -153,17 +150,36 @@ header {
 
 .caratteristiche-piano {
     list-style: none;
+    margin-bottom: 2rem;
+    font-size: 12px;
 
 }
 
-.container-piano {
+.tipo-pacchetto {
     padding: 1rem;
 }
 
 .margin-bottom-list {
     margin-bottom: 1rem;
 }
-
+.margin-border{
+    margin-bottom: 3rem;
+}
 .tipo-pacchetto {
     border: 1px solid grey;
+}
+.tipo-pacchetto button{
+    outline: none;
+    border: none;
+    background-color: rgb(11, 132, 212) ;
+    color: white;
+    padding: 0.5rem;
+}
+.bordo-piccolo{
+    width: 40px;
+    border: 1px solid lightgrey;
+}
+.punti-salienti-piano{
+    font-size: 12px;
+    list-style: none;
 }
