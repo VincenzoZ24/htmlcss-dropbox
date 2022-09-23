@@ -348,6 +348,7 @@ a{
 .dropbox-nella-tua-azienda{
     width: 100vw;
     background-color: rgb(171, 235, 235);
+    margin-bottom: 5rem;
 
 }
 .prova-gratuita{
@@ -361,13 +362,30 @@ a{
 .prova-gratuita button{
     flex: 2 0 auto;
     padding: 0.5rem;
-    align-self: flex-start;
-    margin-left: 5rem;
+    align-self: center;
+    margin-left: 14rem;
     border: none;
 }
 .prova-gratuita h2{
     flex: 1 1 auto;
     font-size: 30px;
+    padding: 3rem;
+    color: rgb(77, 15, 84);
+    align-self: center;
+}
+.containe-domande{
+    width: 100vw;
     
-
+}
+.domande-frequenti{
+    max-width: 800px;
+    margin: auto;
+}
+.domande-frequenti h2{
+    padding: 3rem 0;
+    border-bottom: 1px solid grey;
+}
+.lista-domande>li{
+     padding: 2rem 0;
+     border-bottom: 1px solid gray;
 }
