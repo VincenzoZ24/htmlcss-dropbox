@@ -287,19 +287,20 @@ a{
 }
 .aziende-partner{
     width: 100vw;
-    height: 350px;
+    height: 500px;
     background-color: aqua;
+    margin-top: 5rem;
     
 }
 .quadrato{
-   width: 350px;
-   height: 350px;
+   width: 500px;
+   height: 500px;
    display: flex;
    flex-wrap: wrap;
 }
-.azienda-uno{
-    width:175px;
-    height: 175px;
+.azienda{
+    width:250px;
+    height: 250px;
     background-color: rgb(46, 150, 219);
     display: flex;
     justify-content: center;
@@ -307,7 +308,14 @@ a{
 }
 .azienda img{
     width: 50%;
-    
-
         
+}
+.azienda-due{
+    background-color: rgb(139, 32, 32);
+}
+.azienda-tre{
+    background-color: red;
+}
+.azienda-quattro{
+    background-color: rgb(55, 138, 55);
 }
