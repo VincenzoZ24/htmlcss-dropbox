@@ -132,7 +132,7 @@ header {
 }
 
 .pacchetto {
-    width: calc( 800px / 4rem);
+    width: calc( 800px / 3 - 1rem);
     border: 1px solid lightgray;
     
 }
