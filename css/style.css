@@ -287,21 +287,20 @@ a{
 }
 .aziende-partner{
     width: 100vw;
-    height: 500px;
+    
     background-color: aqua;
     margin-top: 5rem;
     display: flex;
     
 }
 .quadrato{
-   width: 500px;
-   height: 500px;
+   width: calc( 100vw / 3); 
    display: flex;
    flex-wrap: wrap;
 }
 .azienda{
-    width:250px;
-    height: 250px;
+    width: 50%;
+    height: 50%;
     background-color: rgb(46, 150, 219);
     display: flex;
     justify-content: center;
@@ -318,12 +317,7 @@ a{
     background-color: red;
 }
 .azienda-quattro{
-    background-color: rgb(55, 138, 55);
-}
-.quadrato-centrale{
-    width: 500px;
-    height: 500px;
-    
+    background-color: rgb(195, 203, 83);
 }
 
 .azienda-cinque{
@@ -338,5 +332,18 @@ a{
 }
 .azienda-cinque img{
     width: 50%;
+    margin-bottom: 5rem;
     
+}
+.azienda-sei{
+    background-color: aliceblue;
+}
+.azienda-sette{
+    background-color: bisque;
+}
+.azienda-otto{
+    background-color: aquamarine;
+}
+.azienda-nove{
+    background-color: cadetblue;
 }
