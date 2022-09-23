@@ -134,11 +134,13 @@ header {
 .pacchetto {
     width: calc( 800px / 4rem);
     border: 1px solid lightgray;
+    
 }
 
 .riferimento {
     border-bottom: 1px solid lightgray;
     text-align: center;
+    
 }
 
 .prezzo {
@@ -158,6 +160,7 @@ header {
 
 .tipo-pacchetto {
     padding: 1rem;
+    margin: auto;
 }
 
 .margin-bottom-list {
@@ -173,6 +176,9 @@ header {
     background-color: rgb(11, 132, 212) ;
     color: white;
     padding: 0.5rem;
+    display: block;
+    width: 100%;
+    
 }
 .bordo-piccolo{
     width: 40px;
