@@ -117,7 +117,7 @@ header {
 
 /* main container  */
 .container-main {
-    max-width: 900px;
+    max-width: 800px;
     padding-top: 5rem;
     margin: auto;
 }
@@ -132,11 +132,12 @@ header {
 }
 
 .pacchetto {
-    width: 25%;
+    width: calc( 800px / 4rem);
+    border: 1px solid lightgray;
 }
 
 .riferimento {
-    border: 1px solid grey;
+    border-bottom: 1px solid lightgray;
     text-align: center;
 }
 
@@ -165,9 +166,7 @@ header {
 .margin-border{
     margin-bottom: 3rem;
 }
-.tipo-pacchetto {
-    border: 1px solid grey;
-}
+
 .tipo-pacchetto button{
     outline: none;
     border: none;
@@ -182,4 +181,9 @@ header {
 .punti-salienti-piano{
     font-size: 12px;
     list-style: none;
+}
+.pacchetti{
+    display: flex;
+    gap: 2rem;
+    
 }
