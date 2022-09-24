@@ -403,5 +403,24 @@ a{
     
 }
 .lista-domande{
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
+}
+.container-footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.container-list-footer{
+    max-width: 900px;
+    padding: 3rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.list-footer h3{
+    margin-bottom: 2rem;
+}
+.list-footer ul{
+    list-style: none;
 }
