@@ -385,18 +385,30 @@ a{
     padding: 3rem 0;
     border-bottom: 1px solid grey;
 }
-.domanda>li{
+.contain-domanda>li{
      padding: 2rem 0;
      
      list-style: none;
 }
-.domanda{
+.contain-domanda{
     border-bottom: 1px solid gray;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;    
 }
+.contain-domanda:hover .domanda{
+    display: none;
+
+}
+
+.risposta{
+    display: none;
+}
+.contain-domanda:hover .risposta{
+    display: block;
+}
+
+
 .freccia-domanda{
     font-size: 30px;
     padding: 1rem;
